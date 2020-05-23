@@ -33,7 +33,7 @@ if len(ids) != 0:
     if success != 1:
         sys.stdout.write('\n> Declined %s friend requests.\n' % (success))
     else:
-        sys.stdout.write('\n> Declined %s friend request.\n' % (success))
+        sys.stdout.write('\n> Declined 1 friend request.\n')
 else:
     sys.stdout.write('> You have no friend requests incoming.\n')
 
